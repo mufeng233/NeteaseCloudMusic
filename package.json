@@ -1,0 +1,73 @@
+{
+  "name": "music-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "core-js": "^2.6.5",
+    "lyric-parser": "^1.0.1",
+    "mui-player": "^1.3.0",
+    "video.js": "^7.11.8",
+    "videojs-contrib-hls": "^5.15.0",
+    "vue": "^2.6.10",
+    "vue-axios": "^3.2.4",
+    "vue-cookies": "^1.7.4",
+    "vue-router": "^3.5.1",
+    "vuetify": "^2.4.0",
+    "vuetify-dialog": "^2.0.14",
+    "vuex": "^3.6.2",
+    "xgplayer-vue": "^1.1.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.0",
+    "@babel/preset-env": "^7.14.0",
+    "@mdi/font": "^5.9.55",
+    "@mdi/js": "^5.9.55",
+    "@vue/cli-plugin-babel": "^3.0.4",
+    "@vue/cli-plugin-eslint": "^3.0.4",
+    "@vue/cli-service": "^3.0.4",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "material-design-icons-iconfont": "^v6.1.0",
+    "sass": "^1.32.0",
+    "sass-loader": "^10.0.0",
+    "vue-cli-plugin-vuetify": "^2.3.1",
+    "vue-template-compiler": "^2.6.10",
+    "vuetify": "^2.4.11",
+    "vuetify-audio": "^0.3.3",
+    "vuetify-loader": "^1.7.0",
+    "webpack": "^5.36.2"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}

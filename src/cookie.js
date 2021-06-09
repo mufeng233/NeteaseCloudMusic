@@ -1,0 +1,1 @@
++ "&cookie=" + encodeURIComponent(this.$store.state.cookie)
